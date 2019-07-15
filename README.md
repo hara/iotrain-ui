@@ -31,4 +31,9 @@ npm run test:unit
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+Set `VUE_APP_GRAPHQL_HTTP` in `.env`.
+
+```
+VUE_APP_GRAPHQL_HTTP=http://raspberrypi.local:8080/graph
+```
